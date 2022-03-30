@@ -148,7 +148,7 @@ int loop;
 		void pocetak(){
 			std::cout << "Koliko puta zelite da bacite kockicu?" << std::endl;
 			std::cout << "Pritisnite ENTER da potvrdite broj bacanja kockice!" << std::endl;
-				std::cout << "Bacanje kockice izvrsava se pritiskom na slovo -b- pa na ENTER za potvrdu!" << std::endl;
+				std::cout << "Bacanje kockice izvrsava se pritiskom na slovo -b- pa na ENTER za potvrdu!(SADA KUCATE SAMO BROJ A POSLE SLOVO -b- ZA BACANJE" << std::endl;
 					std::cin >> loop;
 						PlaySound("C:\\Users\\Vuk\\Documents\\cpp\\begin.wav", NULL, SND_FILENAME);
 							if(loop == true){
